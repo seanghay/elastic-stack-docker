@@ -1,5 +1,6 @@
 # Elastic Stack Docker
 
+[![Validation](https://github.com/seanghay/elastic-stack-docker/actions/workflows/ci.yml/badge.svg)](https://github.com/seanghay/elastic-stack-docker/actions/workflows/ci.yml)
 
 #### Start Elasticsearch & Kibana
 

@@ -1,0 +1,10 @@
+name: Validation
+
+on: push
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the stack
+        run: docker-compose -f docker-compose.yml config
